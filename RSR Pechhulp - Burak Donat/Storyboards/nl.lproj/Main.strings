@@ -1,0 +1,48 @@
+
+/* Class = "UINavigationItem"; title = "RSR Pechhulp"; ObjectID = "4Np-a3-cpd"; */
+"4Np-a3-cpd.title" = "RSR Pechhulp";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "8Dv-pg-vgg"; */
+"8Dv-pg-vgg.title" = "Item";
+
+/* Class = "UILabel"; text = "Voor dit number betaalt u uw gebruikelijke belkosten"; ObjectID = "8bm-Pa-ijn"; */
+"8bm-Pa-ijn.text" = "Voor dit number betaalt u uw gebruikelijke belkosten";
+
+/* Class = "UILabel"; text = "Belkosten"; ObjectID = "BdC-2d-3C6"; */
+"BdC-2d-3C6.text" = "Belkosten";
+
+/* Class = "UILabel"; text = "Voor dit nummer betaalt u uw gebruikelijke belkosten."; ObjectID = "Qlc-LH-h0h"; */
+"Qlc-LH-h0h.text" = "Voor dit nummer betaalt u uw gebruikelijke belkosten.";
+
+/* Class = "UIButton"; normalTitle = "RSR Pechhulp"; ObjectID = "Zx9-vq-bhm"; */
+"Zx9-vq-bhm.normalTitle" = "RSR Pechhulp";
+
+/* Class = "UIButton"; normalTitle = "Bel RSR nu"; ObjectID = "d82-qc-RXf"; */
+"d82-qc-RXf.normalTitle" = "Bel RSR nu";
+
+/* Class = "UILabel"; text = "Neem contact op met RSR Nederland"; ObjectID = "eAf-yS-Bah"; */
+"eAf-yS-Bah.text" = "Neem contact op met RSR Nederland";
+
+/* Class = "UIButton"; normalTitle = "Annuleran"; ObjectID = "jXX-85-dN6"; */
+"jXX-85-dN6.normalTitle" = "Annuleran";
+
+/* Class = "UIButton"; normalTitle = " 0900-7788990"; ObjectID = "lVI-xh-a8j"; */
+"lVI-xh-a8j.normalTitle" = " 0900-7788990";
+
+/* Class = "UIButton"; normalTitle = "Bel nu"; ObjectID = "pl9-4e-dHk"; */
+"pl9-4e-dHk.normalTitle" = "Bel nu";
+
+/* Class = "UIBarButtonItem"; title = "Terug"; ObjectID = "tUM-MU-4bZ"; */
+"tUM-MU-4bZ.title" = "Terug";
+
+/* Class = "UIButton"; normalTitle = "Over RSR"; ObjectID = "tVE-vU-Z6I"; */
+"tVE-vU-Z6I.normalTitle" = "Over RSR";
+
+/* Class = "UINavigationItem"; title = "RSR Revalidatieservice"; ObjectID = "tae-4W-uC6"; */
+"tae-4W-uC6.title" = "RSR Revalidatieservice";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna a"; ObjectID = "tqG-Qp-1vt"; */
+"tqG-Qp-1vt.text" = "Met de hulp van RSR blijft u mobiel. RSR is de leverancier van hulpmiddelen in de regio Noordooost-Netherland. Gedegen kennis en jarenlange ervaring zit ons DNA verweven en leidt tot het beste advies \n\n Wilt u meer weten over onze producten en diensten, kijk dan op www.rsr.nl of bezoek onze showrooms in Silvolde en Nieuwleusen. We zijn idere werkdag geopend van 8.00 tot 17.00 uur. Hier kunt u diverse hulpmiddelen uitproberen en rustig bekijken wat goed bij uw situatie aansluit. Samen met u zoeken we naar hulpmiddelen dat bij u past. RSR maakt mensen mobiel";
+
+/* Class = "UIBarButtonItem"; title = " Burak"; ObjectID = "uTb-bb-prI"; */
+"uTb-bb-prI.title" = " Burak";

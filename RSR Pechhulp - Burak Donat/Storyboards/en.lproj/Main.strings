@@ -1,0 +1,48 @@
+
+/* Class = "UINavigationItem"; title = "RSR Pechhulp"; ObjectID = "4Np-a3-cpd"; */
+"4Np-a3-cpd.title" = "RSR Pechhulp";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "8Dv-pg-vgg"; */
+"8Dv-pg-vgg.title" = "Item";
+
+/* Class = "UILabel"; text = "Voor dit number betaalt u uw gebruikelijke belkosten"; ObjectID = "8bm-Pa-ijn"; */
+"8bm-Pa-ijn.text" = "Voor dit number betaalt u uw gebruikelijke belkosten";
+
+/* Class = "UILabel"; text = "Belkosten"; ObjectID = "BdC-2d-3C6"; */
+"BdC-2d-3C6.text" = "Belkosten";
+
+/* Class = "UILabel"; text = "You pay your usual calling costs for this number"; ObjectID = "Qlc-LH-h0h"; */
+"Qlc-LH-h0h.text" = "You pay your usual calling costs for this number";
+
+/* Class = "UIButton"; normalTitle = "RSR Pechhulp"; ObjectID = "Zx9-vq-bhm"; */
+"Zx9-vq-bhm.normalTitle" = "RSR Pechhulp";
+
+/* Class = "UIButton"; normalTitle = "Bel RSR nu"; ObjectID = "d82-qc-RXf"; */
+"d82-qc-RXf.normalTitle" = "Bel RSR nu";
+
+/* Class = "UILabel"; text = "Please contact RSR Nederland"; ObjectID = "eAf-yS-Bah"; */
+"eAf-yS-Bah.text" = "Please contact RSR Nederland";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "jXX-85-dN6"; */
+"jXX-85-dN6.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = " 0900-7788990"; ObjectID = "lVI-xh-a8j"; */
+"lVI-xh-a8j.normalTitle" = " 0900-7788990";
+
+/* Class = "UIButton"; normalTitle = "Call now"; ObjectID = "pl9-4e-dHk"; */
+"pl9-4e-dHk.normalTitle" = "Call now";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "tUM-MU-4bZ"; */
+"tUM-MU-4bZ.title" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Over RSR"; ObjectID = "tVE-vU-Z6I"; */
+"tVE-vU-Z6I.normalTitle" = "Over RSR";
+
+/* Class = "UINavigationItem"; title = "RSR Revalidatieservice"; ObjectID = "tae-4W-uC6"; */
+"tae-4W-uC6.title" = "RSR Revalidatieservice";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna a"; ObjectID = "tqG-Qp-1vt"; */
+"tqG-Qp-1vt.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna a";
+
+/* Class = "UIBarButtonItem"; title = " Burak"; ObjectID = "uTb-bb-prI"; */
+"uTb-bb-prI.title" = " Burak";

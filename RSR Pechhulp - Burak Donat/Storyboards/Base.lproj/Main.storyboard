@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5q6-rE-9N2">
+    <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--RSR Revalidatieservice-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_background" translatesAutoresizingMaskIntoConstraints="NO" id="iUv-Xd-WVx">
+                                <rect key="frame" x="0.0" y="50" width="768" height="974"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="WVL-Lf-jYA">
+                                <rect key="frame" x="22" y="702" width="724" height="292"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tVE-vU-Z6I">
+                                        <rect key="frame" x="0.0" y="0.0" width="724" height="136"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                        <inset key="titleEdgeInsets" minX="-25" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="-110" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Over RSR" image="ic_phone" backgroundImage="btn_normal">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="gQs-KY-byi" kind="show" id="1YW-Uq-feU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zx9-vq-bhm">
+                                        <rect key="frame" x="0.0" y="156" width="724" height="136"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                        <inset key="titleEdgeInsets" minX="-25" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="-70" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="RSR Pechhulp" image="ic_attention" backgroundImage="btn_normal"/>
+                                        <connections>
+                                            <segue destination="gkv-oB-5A0" kind="show" id="RJ3-KB-PP9"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="tVE-vU-Z6I"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="subviews">
+                                        <include reference="tVE-vU-Z6I"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WVL-Lf-jYA" secondAttribute="bottom" constant="30" id="8QE-MZ-N26"/>
+                            <constraint firstItem="WVL-Lf-jYA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JKT-yg-DCV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iUv-Xd-WVx" secondAttribute="trailing" id="lLT-QX-Xet"/>
+                            <constraint firstItem="iUv-Xd-WVx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="mJg-jK-7Mt"/>
+                            <constraint firstItem="iUv-Xd-WVx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xFq-wl-pb1"/>
+                            <constraint firstAttribute="bottom" secondItem="iUv-Xd-WVx" secondAttribute="bottom" id="zHy-qE-qKe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="RSR Revalidatieservice" id="tae-4W-uC6">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="tUM-MU-4bZ"/>
+                        <barButtonItem key="rightBarButtonItem" id="xPZ-Y9-st7">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eRq-i9-XeJ">
+                                <rect key="frame" x="664" y="3" width="84" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="imageEdgeInsets" minX="50" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" image="ic_over_normal"/>
+                                <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
+                                <connections>
+                                    <segue destination="gQs-KY-byi" kind="show" id="iyK-P1-6bs"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1046.25" y="120.4225352112676"/>
+        </scene>
+        <!--Over RSR-->
+        <scene sceneID="WKe-p7-pIp">
+            <objects>
+                <viewController id="gQs-KY-byi" customClass="OverRSRViewController" customModule="RSR_Pechhulp___Burak_Donat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Ud-ML-hZb">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8du-JQ-c5R">
+                                <rect key="frame" x="0.0" y="50" width="768" height="974"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ea4-kx-hqd">
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="1550.5"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="over_image" translatesAutoresizingMaskIntoConstraints="NO" id="H7Z-K5-KZY">
+                                                <rect key="frame" x="0.0" y="0.0" width="768" height="1048"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tqG-Qp-1vt">
+                                                <rect key="frame" x="0.0" y="1068" width="768" height="166.5"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <string key="text">With the help of RSR you stay mobile. RSR is a supplier of medical aids in the North East Netherland region. Our DNA is interwoven with thorough knowledge and years of experience, leading to the best advice. If you would like to know more about our products and services, please visit www.rsr.nl or visit our showrooms in Silvolde and Nieuwleusen. We are open every working day from 08:00 to 17:00. Here you can try out various tools and take a look at what best suits your situation. Together with you, we look for tools that suit you. RSR makes people mobile</string>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
+                                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                                            </textView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="small_logo_ipad" translatesAutoresizingMaskIntoConstraints="NO" id="F9f-bB-CPE">
+                                                <rect key="frame" x="0.0" y="1254.5" width="768" height="296"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ea4-kx-hqd" firstAttribute="leading" secondItem="FHN-kx-dHy" secondAttribute="leading" id="2z7-ZC-ZIa"/>
+                                    <constraint firstItem="ea4-kx-hqd" firstAttribute="trailing" secondItem="FHN-kx-dHy" secondAttribute="trailing" id="XOK-0a-Tba"/>
+                                    <constraint firstItem="ea4-kx-hqd" firstAttribute="top" secondItem="FHN-kx-dHy" secondAttribute="top" id="scX-RM-fEd"/>
+                                    <constraint firstItem="ea4-kx-hqd" firstAttribute="bottom" secondItem="FHN-kx-dHy" secondAttribute="bottom" id="xTq-SB-a1G"/>
+                                    <constraint firstItem="ea4-kx-hqd" firstAttribute="width" secondItem="bRr-67-3jc" secondAttribute="width" id="ycW-Gx-JRP"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="FHN-kx-dHy"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="bRr-67-3jc"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="8du-JQ-c5R" firstAttribute="leading" secondItem="eJt-qz-QW3" secondAttribute="leading" id="2Fw-Bt-i4B"/>
+                            <constraint firstItem="H7Z-K5-KZY" firstAttribute="height" secondItem="eJt-qz-QW3" secondAttribute="height" multiplier="0.55" id="9Ib-ms-Ojj"/>
+                            <constraint firstItem="8du-JQ-c5R" firstAttribute="bottom" secondItem="eJt-qz-QW3" secondAttribute="bottom" id="M6j-VC-XYM"/>
+                            <constraint firstItem="8du-JQ-c5R" firstAttribute="trailing" secondItem="eJt-qz-QW3" secondAttribute="trailing" id="sb7-zh-o6T"/>
+                            <constraint firstItem="8du-JQ-c5R" firstAttribute="top" secondItem="eJt-qz-QW3" secondAttribute="top" id="yCv-OB-ZV6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eJt-qz-QW3"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <exclude reference="9Ib-ms-Ojj"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Over RSR" id="KMf-cs-v4e"/>
+                    <connections>
+                        <outlet property="overTextView" destination="tqG-Qp-1vt" id="Lbc-jH-CGN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i6y-Ik-QTE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1837.68115942029" y="590.625"/>
+        </scene>
+        <!--RSR Pechhulp-->
+        <scene sceneID="u5r-2T-W47">
+            <objects>
+                <viewController storyboardIdentifier="MapViewViewController" id="gkv-oB-5A0" customClass="MapViewController" customModule="RSR_Pechhulp___Burak_Donat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rc6-qb-yiy">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="yxs-tQ-YW9">
+                                <rect key="frame" x="0.0" y="50" width="768" height="974"/>
+                            </mapView>
+                            <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y41-rj-kaf" userLabel="ipad Bottom View">
+                                <rect key="frame" x="0.0" y="780.5" width="768" height="243.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="n0N-52-ydQ">
+                                        <rect key="frame" x="20" y="20" width="728" height="203.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please contact RSR Nederland" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="eAf-yS-Bah">
+                                                <rect key="frame" x="178.5" y="0.0" width="371.5" height="68"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="27"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVI-xh-a8j">
+                                                <rect key="frame" x="233" y="68" width="262" height="67.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                <state key="normal" title=" 0900-7788990" image="ic_phone"/>
+                                                <connections>
+                                                    <action selector="callButtonTapped:" destination="gkv-oB-5A0" eventType="touchUpInside" id="S9a-7q-WdX"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You pay your usual calling costs for this number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qlc-LH-h0h">
+                                                <rect key="frame" x="120" y="135.5" width="488.5" height="68"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" name="NavBarColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="n0N-52-ydQ" secondAttribute="trailing" constant="20" symbolic="YES" id="5Fm-92-UiX"/>
+                                    <constraint firstItem="n0N-52-ydQ" firstAttribute="leading" secondItem="y41-rj-kaf" secondAttribute="leading" constant="20" symbolic="YES" id="I99-iL-pOe"/>
+                                    <constraint firstItem="n0N-52-ydQ" firstAttribute="top" secondItem="y41-rj-kaf" secondAttribute="top" constant="20" symbolic="YES" id="O9w-n0-h1j"/>
+                                    <constraint firstAttribute="bottom" secondItem="n0N-52-ydQ" secondAttribute="bottom" constant="20" symbolic="YES" id="e2g-vN-Qd3"/>
+                                </constraints>
+                            </view>
+                            <view hidden="YES" alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C6d-H8-ZEA" userLabel="Popup View">
+                                <rect key="frame" x="16" y="163.5" width="288" height="153"/>
+                                <subviews>
+                                    <stackView opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="ciD-ka-PpF">
+                                        <rect key="frame" x="29" y="15.5" width="230" height="122"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Call Charges" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BdC-2d-3C6">
+                                                <rect key="frame" x="0.0" y="0.0" width="230" height="27.5"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="shadowColor" red="0.74822443719999998" green="0.83838123080000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You pay your usual calling costs for this number" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="8bm-Pa-ijn">
+                                                <rect key="frame" x="0.0" y="28.5" width="230" height="38.5"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pl9-4e-dHk">
+                                                <rect key="frame" x="0.0" y="68" width="230" height="54"/>
+                                                <inset key="imageEdgeInsets" minX="-120" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Call now" image="ic_call" backgroundImage="btn_normal">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="callButtonTapped:" destination="gkv-oB-5A0" eventType="touchUpInside" id="3e0-cT-CMX"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.83050811290000004" green="0.87344461679999996" blue="0.25466269250000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="ciD-ka-PpF" firstAttribute="centerX" secondItem="C6d-H8-ZEA" secondAttribute="centerX" id="EoG-nN-Cwx"/>
+                                    <constraint firstItem="ciD-ka-PpF" firstAttribute="height" secondItem="C6d-H8-ZEA" secondAttribute="height" multiplier="0.8" id="agy-BW-SlB"/>
+                                    <constraint firstItem="ciD-ka-PpF" firstAttribute="centerY" secondItem="C6d-H8-ZEA" secondAttribute="centerY" id="lJV-Ox-VvD"/>
+                                    <constraint firstItem="ciD-ka-PpF" firstAttribute="width" secondItem="C6d-H8-ZEA" secondAttribute="width" multiplier="0.8" id="uPC-E5-3XO"/>
+                                </constraints>
+                            </view>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jXX-85-dN6">
+                                <rect key="frame" x="16" y="137.5" width="82" height="26"/>
+                                <state key="normal" title="Cancel" backgroundImage="annuleren_normal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelButtonTapped:" destination="gkv-oB-5A0" eventType="touchUpInside" id="4yV-Bi-iah"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="m1T-hc-f5h" userLabel="iphone Buttom View">
+                                <rect key="frame" x="17" y="406" width="286" height="54"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d82-qc-RXf">
+                                        <rect key="frame" x="0.0" y="0.0" width="286" height="54"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                        <inset key="titleEdgeInsets" minX="-25" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="-100" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Call RSR now" image="ic_phone" backgroundImage="btn_normal"/>
+                                        <connections>
+                                            <action selector="buttomButtonTapped:" destination="gkv-oB-5A0" eventType="touchUpInside" id="wQX-Bb-XGt"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="5gO-ux-APt" firstAttribute="trailing" secondItem="yxs-tQ-YW9" secondAttribute="trailing" id="4I8-7T-s1C"/>
+                            <constraint firstItem="5gO-ux-APt" firstAttribute="bottom" secondItem="y41-rj-kaf" secondAttribute="bottom" id="63n-WJ-I47"/>
+                            <constraint firstItem="C6d-H8-ZEA" firstAttribute="top" secondItem="jXX-85-dN6" secondAttribute="bottom" id="HvO-fr-nQ6"/>
+                            <constraint firstItem="yxs-tQ-YW9" firstAttribute="top" secondItem="5gO-ux-APt" secondAttribute="top" id="MN6-S8-SfK"/>
+                            <constraint firstItem="5gO-ux-APt" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="jXX-85-dN6" secondAttribute="trailing" symbolic="YES" id="Nn3-uk-eut"/>
+                            <constraint firstItem="C6d-H8-ZEA" firstAttribute="height" secondItem="5gO-ux-APt" secondAttribute="height" multiplier="0.35" id="Plu-Lb-z9d"/>
+                            <constraint firstItem="y41-rj-kaf" firstAttribute="height" secondItem="5gO-ux-APt" secondAttribute="height" multiplier="0.25" id="ShK-35-is8"/>
+                            <constraint firstItem="m1T-hc-f5h" firstAttribute="centerX" secondItem="Rc6-qb-yiy" secondAttribute="centerX" id="UJr-DP-fvZ"/>
+                            <constraint firstItem="5gO-ux-APt" firstAttribute="trailing" secondItem="y41-rj-kaf" secondAttribute="trailing" id="XJa-xR-NpO"/>
+                            <constraint firstAttribute="bottom" secondItem="yxs-tQ-YW9" secondAttribute="bottom" id="Xu8-Hq-mWo"/>
+                            <constraint firstItem="5gO-ux-APt" firstAttribute="bottom" secondItem="m1T-hc-f5h" secondAttribute="bottom" constant="20" id="a7P-ov-fUq"/>
+                            <constraint firstItem="C6d-H8-ZEA" firstAttribute="width" secondItem="5gO-ux-APt" secondAttribute="width" multiplier="0.9" id="cM0-SR-LpY"/>
+                            <constraint firstItem="jXX-85-dN6" firstAttribute="leading" secondItem="C6d-H8-ZEA" secondAttribute="leading" id="faI-65-ts2"/>
+                            <constraint firstItem="jXX-85-dN6" firstAttribute="width" secondItem="C6d-H8-ZEA" secondAttribute="width" multiplier="0.284436" id="gfy-eq-OSb"/>
+                            <constraint firstItem="C6d-H8-ZEA" firstAttribute="centerY" secondItem="Rc6-qb-yiy" secondAttribute="centerY" id="lV5-J3-N3J"/>
+                            <constraint firstItem="C6d-H8-ZEA" firstAttribute="centerX" secondItem="Rc6-qb-yiy" secondAttribute="centerX" id="tPS-bv-Xfj"/>
+                            <constraint firstItem="yxs-tQ-YW9" firstAttribute="leading" secondItem="5gO-ux-APt" secondAttribute="leading" id="v5T-Af-CuL"/>
+                            <constraint firstItem="y41-rj-kaf" firstAttribute="leading" secondItem="5gO-ux-APt" secondAttribute="leading" id="w4Y-8D-vgI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5gO-ux-APt"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="y41-rj-kaf"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="63n-WJ-I47"/>
+                                <exclude reference="XJa-xR-NpO"/>
+                                <exclude reference="ShK-35-is8"/>
+                                <exclude reference="w4Y-8D-vgI"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="y41-rj-kaf"/>
+                                <exclude reference="C6d-H8-ZEA"/>
+                                <exclude reference="jXX-85-dN6"/>
+                                <exclude reference="m1T-hc-f5h"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="63n-WJ-I47"/>
+                                <exclude reference="Nn3-uk-eut"/>
+                                <include reference="XJa-xR-NpO"/>
+                                <exclude reference="a7P-ov-fUq"/>
+                                <exclude reference="faI-65-ts2"/>
+                                <exclude reference="gfy-eq-OSb"/>
+                                <exclude reference="HvO-fr-nQ6"/>
+                                <exclude reference="Plu-Lb-z9d"/>
+                                <exclude reference="cM0-SR-LpY"/>
+                                <exclude reference="lV5-J3-N3J"/>
+                                <exclude reference="tPS-bv-Xfj"/>
+                                <exclude reference="UJr-DP-fvZ"/>
+                                <include reference="ShK-35-is8"/>
+                                <include reference="w4Y-8D-vgI"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="RSR Pechhulp" id="4Np-a3-cpd">
+                        <barButtonItem key="backBarButtonItem" title=" Burak" id="uTb-bb-prI"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="callButton" destination="d82-qc-RXf" id="KPO-TA-bkU"/>
+                        <outlet property="cancelButton" destination="jXX-85-dN6" id="xB0-qq-4Du"/>
+                        <outlet property="mapView" destination="yxs-tQ-YW9" id="iWA-nW-aCE"/>
+                        <outlet property="popupView" destination="C6d-H8-ZEA" id="IKi-MA-EBf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GSk-db-jGG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1830.4347826086957" y="-257.8125"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0A1-cY-zun">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5q6-rE-9N2" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6Zd-MC-97C">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" name="NavBarColor"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Xdz-xS-3dU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dor-43-LwF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="121.875"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="annuleren_normal" width="106" height="26"/>
+        <image name="btn_normal" width="362" height="68"/>
+        <image name="ic_attention" width="42" height="36"/>
+        <image name="ic_call" width="30" height="36"/>
+        <image name="ic_over_normal" width="30" height="30"/>
+        <image name="ic_phone" width="32" height="36"/>
+        <image name="img_background" width="768" height="1024"/>
+        <image name="over_image" width="768" height="524"/>
+        <image name="small_logo_ipad" width="176" height="148"/>
+        <namedColor name="NavBarColor">
+            <color red="0.078431372549019607" green="0.56862745098039214" blue="0.73333333333333328" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="1YW-Uq-feU"/>
+    </inferredMetricsTieBreakers>
+    <color key="tintColor" red="0.76773160699999998" green="0.83046895269999998" blue="0.022326709699999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+</document>
